@@ -1,0 +1,8 @@
+/.idea
+/.vagrant
+/vendor
+/node_modules
+.env
+.phpstorm.meta.php
+Homestead.yaml
+Homestead.json
