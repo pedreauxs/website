@@ -41,7 +41,7 @@ class SignUpController extends Controller
         Mail::send('emails.sign-up', $request->all(), function ($message) {
             $message->from('noreply@pedreauxs.com', "Pedreaux's");
             $message->subject('Website Sign-up');
-            $message->to('james.benner@gmail.com');
+            $message->to('admin@pedreauxs.com');
         });
 
         return view('thank-you');

@@ -10,7 +10,7 @@
 <div class="container">
     <div class="content">
         <img src="images/logo.png" alt="Pedreaux’s">
-        <p>Thank you for your interest in Pedreaux’s. You will receive updates on our progress at it becomes available.</p>
+        <p>Thank you for your interest in Pedreaux’s. You will receive updates on our progress as it becomes available.</p>
     </div>
 </div>
 </body>
