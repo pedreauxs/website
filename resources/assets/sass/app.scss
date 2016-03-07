@@ -1,2 +1,69 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ccc;
+    color: #2e3436;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+[name="email"] {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+[type="submit"] {
+    width: 25%;
+    height: 46px;
+    background: #aa0f0a;
+    font-family: inherit;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    &:hover {
+        background: #d45d7d;
+    }
+}
+
+input:focus {
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+}
