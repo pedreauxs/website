@@ -29,6 +29,14 @@ body {
 .input {
     display: flex;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+img.logo {
+    max-width: 431px;
+    width: 80%;
+    height: auto;
 }
 
 .button {
