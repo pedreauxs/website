@@ -11,7 +11,12 @@ body {
   width: 100%;
   display: table;
   font-weight: 100;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
+}
+
+.button {
+  height: 44px;
+  border: none;
 }
 
 .container {
@@ -36,15 +41,15 @@ body {
   margin-right: 1rem;
 }
 
-img.logo {
+.input:focus {
+  outline: 2px solid #e86c8d;
+  box-shadow: 0 0 2px #e86c8d;
+}
+
+.logo {
   max-width: 431px;
   width: 65%;
   height: auto;
-}
-
-.button {
-  height: 44px;
-  border: none;
 }
 
 [name="email"] {
@@ -72,10 +77,4 @@ img.logo {
 
 [type="submit"]:hover {
   background: #d45d7d;
-}
-
-input:focus {
-  outline: none;
-  outline: 2px solid #E86C8D;
-  box-shadow: 0 0 2px #E86C8D;
 }
