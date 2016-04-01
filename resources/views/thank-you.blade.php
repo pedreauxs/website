@@ -12,6 +12,7 @@
         <div class="container">
             <div class="content">
                 <img class="logo" src="images/logo.png" alt="Pedreaux’s">
+                <br>
                 <p>Thank you for your interest in Pedreaux’s. You will receive updates on our progress as it becomes available.</p>
             </div>
         </div>
