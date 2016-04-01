@@ -1,0 +1,10 @@
+.logo {
+    width: 431px;
+    height: auto;
+}
+
+@media all and (max-width: 360px) {
+    .logo {
+        width: 85%;
+    }
+}

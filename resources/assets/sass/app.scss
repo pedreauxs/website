@@ -1,5 +1,7 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import "logo";
+
 html, body {
     height: 100%;
 }
@@ -44,12 +46,6 @@ p {
         outline: 2px solid #e86c8d;
         box-shadow: 0 0 2px #e86c8d;
     }
-}
-
-.logo {
-    max-width: 431px;
-    width: 65%;
-    height: auto;
 }
 
 [name="email"] {

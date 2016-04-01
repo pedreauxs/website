@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::post('/sign-ups', 'SignUpController@store');
+
+Route::get('/thank-you', function () {
+   return view('thank-you');
+});

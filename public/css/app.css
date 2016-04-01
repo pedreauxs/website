@@ -1,3 +1,14 @@
+.logo {
+  width: 431px;
+  height: auto;
+}
+
+@media all and (max-width: 360px) {
+  .logo {
+    width: 85%;
+  }
+}
+
 html,
 body {
   height: 100%;
@@ -48,12 +59,6 @@ p {
 .input:focus {
   outline: 2px solid #e86c8d;
   box-shadow: 0 0 2px #e86c8d;
-}
-
-.logo {
-  max-width: 431px;
-  width: 65%;
-  height: auto;
 }
 
 [name="email"] {
